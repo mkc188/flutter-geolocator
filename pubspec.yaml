@@ -9,7 +9,11 @@ dependencies:
   flutter:
     sdk: flutter
   permission_handler: "^3.0.0"
-  google_api_availability: "^2.0.0"
+  # google_api_availability: "^2.0.0"
+  google_api_availability:
+    git:
+      url: git://github.com/BaseflowIT/flutter-google-api-availability
+      ref: develop
 dev_dependencies:
   flutter_test:
     sdk: flutter
